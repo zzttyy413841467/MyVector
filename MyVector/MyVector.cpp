@@ -8,6 +8,7 @@ MyVector::~MyVector()
 {
 }
 
+// 求向量点积
 double dot(vector<double> a, vector<double> b)
 {
 	int n1 = a.size();
@@ -21,6 +22,7 @@ double dot(vector<double> a, vector<double> b)
 	return c;
 }
 
+// 求向量长度(2范数)
 double norm(vector<double> a)
 {
 	int n = a.size();
